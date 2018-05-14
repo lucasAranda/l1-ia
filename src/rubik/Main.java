@@ -19,7 +19,7 @@ public class Main {
      public static void main(String[] args) {
         Cubo cubo = new Cubo();
         
-        long semilla = 62144;       //numero de legajo
+        long semilla = 32903;       //numero de legajo
         cubo.rnd.setSeed(semilla); //asigna semilla para generar estado aleatorio
         System.out.println("\nSEMILLA:"+semilla); //muestra la semilla por consola
              

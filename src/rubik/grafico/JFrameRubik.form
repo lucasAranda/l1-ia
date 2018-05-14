@@ -6,6 +6,7 @@
   </Properties>
   <SyntheticProperties>
     <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
   </SyntheticProperties>
   <Events>
     <EventHandler event="windowClosing" listener="java.awt.event.WindowListener" parameters="java.awt.event.WindowEvent" handler="formWindowClosing"/>
@@ -28,7 +29,7 @@
           <Group type="102" alignment="1" attributes="0">
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="1" attributes="0">
-                  <Component id="jPanelRubik" alignment="0" pref="563" max="32767" attributes="0"/>
+                  <Component id="jPanelRubik" alignment="0" max="32767" attributes="0"/>
                   <Group type="102" alignment="1" attributes="0">
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" alignment="0" attributes="0">
@@ -38,8 +39,8 @@
                                   <Group type="102" alignment="0" attributes="0">
                                       <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
                                       <Group type="103" groupAlignment="0" attributes="0">
-                                          <Component id="textResolver" pref="377" max="32767" attributes="1"/>
-                                          <Component id="textMover" pref="377" max="32767" attributes="1"/>
+                                          <Component id="textResolver" max="32767" attributes="1"/>
+                                          <Component id="textMover" max="32767" attributes="1"/>
                                       </Group>
                                       <EmptySpace max="-2" attributes="0"/>
                                   </Group>
@@ -50,8 +51,8 @@
                                   </Group>
                               </Group>
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="btMover" alignment="0" pref="65" max="32767" attributes="1"/>
-                                  <Component id="btSalir" pref="65" max="32767" attributes="0"/>
+                                  <Component id="btMover" alignment="0" max="32767" attributes="1"/>
+                                  <Component id="btSalir" max="32767" attributes="0"/>
                                   <Component id="btAplicar" alignment="0" max="32767" attributes="1"/>
                               </Group>
                           </Group>
@@ -73,7 +74,7 @@
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="spinPasos" min="-2" pref="40" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="textDesordenar" pref="388" max="32767" attributes="0"/>
+                      <Component id="textDesordenar" max="32767" attributes="0"/>
                   </Group>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
@@ -260,7 +261,7 @@
     <Component class="javax.swing.JTextField" name="selecionSemilla">
       <Properties>
         <Property name="horizontalAlignment" type="int" value="0"/>
-        <Property name="text" type="java.lang.String" value="62144"/>
+        <Property name="text" type="java.lang.String" value="32903"/>
       </Properties>
     </Component>
   </SubComponents>
